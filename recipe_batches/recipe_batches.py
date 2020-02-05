@@ -3,15 +3,7 @@
 import math
 
 def recipe_batches(recipe, ingredients):
-    count = []
-    batch_count = 0
-
-    if len(recipe) != len(ingredients):
-        return batch_count
-    for ingredient in recipe:
-        count.append(ingredients[ingredient]//recipe[ingredient])
-    batch_count = min(count)
-    return batch_count
+    pass
 
 
 if __name__ == '__main__':
